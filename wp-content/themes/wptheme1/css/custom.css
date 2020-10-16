@@ -1,0 +1,209 @@
+.topsec{
+    background-color: black;
+    padding:2em 8em;
+    height:14em;
+    display: flex;
+    position: relative;
+  
+}
+
+.phonenumber i{
+
+    font-size: 4rem;
+    color:blue;
+    margin-right:1rem;
+    /* position: absolute; */
+    /* right:20%;
+    top:30%; */
+
+}
+.phonenumber h2{
+
+    font-size: 2.5em;
+    color:blue;
+    position: absolute;
+    right:10%;
+    top:30%;
+    
+}
+
+.navbar-nav .nav-link{
+    font-size: 1em;
+}
+.navbar-brand{
+    padding:0;    
+}
+.navbar-light .navbar-toggler{
+    color:blue !important;
+}
+.navbar-brand img {
+    max-width: 50em;
+}
+.container-fluid.features{
+   padding:0 !important;
+  
+}
+.hero2{
+    display: flex;
+    background-color: black;
+    padding: 8em;
+    width: 100%;
+   
+}
+
+.hero2 h1{
+    color: white;
+    
+}
+.hero2 p {
+    color: white;
+    font-size:1.5em;
+    line-height: 2em;
+}
+.box{
+    padding: 0em 4em;
+    color:white !important;
+}
+/* .bg-black {
+    background-color: #000;
+} */
+.hero3{
+    padding:8em;
+    text-align: center;
+}
+.hero3 h1{
+    padding: 2em;
+}
+.hero3 p{
+    font-size:1.5em;
+    line-height: 2em;
+
+}
+/* <----------products----> */
+.hero.product1 h1{
+    text-align: center;
+    padding:2em;
+    font-size:3.5em;
+    background-image: url(../img/banner/gallerybanner.png);
+    color:white;
+    margin:0;
+}
+.hero2.product{
+    display: block !important;
+    
+    
+}
+
+.hero2.product h1 {
+    color:grey;
+    padding-bottom:1em;
+    font-size: 3.5em;
+    
+   
+    
+}
+.hero2.product p {
+    color:grey;
+   
+  
+}
+.hero3.product{
+    display: flex;
+    
+
+   
+  
+}
+/*--------------testimonial-----------*/
+.single-testimonial-area{
+ padding: none !important;
+ background-image: none;
+
+}
+.testimonial-images img{
+    width: auto;
+    border-radius:5em;
+}
+
+#single-testimonial-item{
+    padding: 3.5em 3.5em 2em 3.5em;
+    background-color: rgba(19, 18, 18, 0.432);
+    border-radius: 4px;
+}
+/* .owl-wrapper-outer{
+    background-color:grey;
+ 
+} */
+
+blockquote{
+    line-height: 1em;
+    color:rgb(245, 241, 241) !important;
+    font-size:2em !important;
+}
+.fa-bars{
+    color:white;
+}
+.owl-buttons .fa{
+    font-size: 4em !important;
+    
+}
+/* -----------------gallery---------------- */
+#portfolio{
+    padding:0!important;
+    margin:0 !important;
+}
+.wrapper {
+    padding-bottom:0;
+}
+.portfoli-content:before{
+    background-color: rgba(23, 41, 132, 0.454);
+
+}
+
+/* <--------contact-----------> */
+
+.row.contact{
+    padding:5em;
+    padding-left:5em !important;
+    
+
+}
+.contact .col-lg-8{
+    padding: 10em;
+}
+.contact.col-lg-4{
+    padding: 10em;
+  
+}
+/* ------------global-------------- */
+.contact .btn{
+    color:blue;
+    border: thin blue solid;
+}
+button:hover{
+    color:rgb(98, 98, 137);
+   
+}
+a.nav-link:hover{
+    color:rgb(123, 123, 238) !important;
+}
+
+.btn-default-filled, .btn-default-filled:active, .btn-default-filled:focus {
+    color: #fff;
+    background: rgb(95, 95, 114);
+    border: 2px solid #cecacb;
+    border-radius:3px;
+}
+.btn-common, .btn-common:active, .btn-common:focus {
+    color:#fff;
+    border: 2px solid  #cecacb;
+    background: transparent;
+
+}
+/* <-------------------------new roofing-----------------> */
+.thumbnail-gallery{
+    padding:10em;
+
+}
+
+
