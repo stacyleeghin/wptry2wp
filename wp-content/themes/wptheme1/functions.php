@@ -11,11 +11,22 @@ function register_resource() {
     register_post_type('testimonial', $args);
 
 
+    // $args = array(
+    //     'public'  => true,
+    //     'label'   => 'newroofing',
+    // );
+    // register_post_type('newroofing', $args);
+
+
     $args = array(
         'public'  => true,
-        'label'   => 'newroofing',
+        'label'   => 'Features',
     );
-    register_post_type('newroofing', $args);
+    register_post_type('features', $args);
+
+
+
+ 
 
 
 }
