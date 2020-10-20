@@ -17,7 +17,7 @@
             // The Loop
             while ( $the_query->have_posts() ) {
                 $the_query->the_post();
-                get_template_part('partials/content', 'feature');
+                get_template_part('partials/content', 'features');
             }
 
             /* Restore original Post Data */
@@ -25,6 +25,7 @@
 
         ?>
 
+          </div>
          
         </div>
       </div>

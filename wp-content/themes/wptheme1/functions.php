@@ -26,7 +26,23 @@ function register_resource() {
 
 
 
- 
+    $args = array(
+        'public'  => true,
+        'label'   => 'Gallerypic',
+    );
+    register_post_type('gallerypic', $args);
+
+    $args = array(
+        'public'  => true,
+        'label'   => 'Slider',
+    );
+    register_post_type('slider', $args);
+
+    $args = array(
+        'public'  => true,
+        'label'   => 'Banner',
+    );
+    register_post_type('banner', $args);
 
 
 }

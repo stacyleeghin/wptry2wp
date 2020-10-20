@@ -200,6 +200,13 @@ a.nav-link:hover{
     background: transparent;
 
 }
+.hero2.product .banner{
+    padding:0 !important;
+}
+
+.hero2.feature{
+    padding:0 !important;
+}
 /* <-------------------------new roofing-----------------> */
 .thumbnail-gallery{
     padding:10em;
